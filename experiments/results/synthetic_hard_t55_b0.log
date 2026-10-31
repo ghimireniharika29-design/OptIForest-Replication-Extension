@@ -1,0 +1,9 @@
+Dataset: synthetic_hard
+
+L2OPT:
+	AUC score:	 0.7102070175438596
+	AUC std:	 0.009117105303247046
+	PR score:	 0.19373390885046327
+	PR std:	 0.02386251669466992
+	Training time:	 49.34256335894267
+	Testing time:	 34.34488512674967
