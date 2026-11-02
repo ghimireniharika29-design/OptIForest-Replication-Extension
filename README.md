@@ -47,6 +47,16 @@ The synthetic datasets were generated using `new_data/generate_synthetic.py` and
 
 Run these commands from the repository root in a compatible Python environment.
 
+### Prepare the CMC Dataset
+
+The CMC dataset is sourced from the ADBenchmarks anomaly detection dataset repository. After obtaining the original `cmc-nominal.arff` file and placing it in the directory expected by the preprocessing script, run:
+
+```bash
+python new_data/preprocess_cmc.py
+```
+
+The script one-hot encodes the categorical predictors and saves the processed dataset as `new_data/cmc_processed.csv`. To run the original OptIForest demonstration script, copy this file to `data/cmc.csv`.
+
 ### Generate Synthetic Datasets
 
 ```bash
